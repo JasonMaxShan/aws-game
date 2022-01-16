@@ -1,0 +1,5 @@
+创建S3的接口终端节点（S3有两种终端节点“网关”和“接口”）
+终端节点的安全组开放80和443
+下图显示了 VPC 控制台详细信息选项卡，您可以在其中找到 VPC 终端节点的 DNS 名称。在此示例中，VPC 终端节点 ID (vpce-id) 为 vpce-0e25b8cdd720f900e，DNS 名称为 *.vpce-0e25b8cdd720f900e-argc85vg.s3.us-east-1.vpce.amazonaws.com。请记住使用 DNS 名称时要替换 *。例如，要访问存储桶，DNS 名称将是 bucket.vpce-0e25b8cdd720f900e-argc85vg.s3.us-east-1.vpce.amazonaws.com。
+bucket url的格式：https://bucket.vpce-1a2b3c4d-5e6f.s3.us-east-1.vpce.amazonaws.com
+将终端节点的url写入lambda并测试

@@ -1,0 +1,15 @@
+1、Create a custom option group
+Enable following in option group to see logs in cloudwatch.
+SERVER_AUDIT_FILE_ROTATIONS 
+SERVER_AUDIT_FILE_ROTATE_SIZE
+2、Open the Amazon RDS console.
+Choose Databases from the navigation pane.
+Select the DB instance that you want to use to export log data to CloudWatch.
+Choose Modify.
+From the option group，select the new option group
+From the Log exports section, select the Audit log.
+Choose Continue.
+Review the Summary of modifications, and choose Modify instance.
+
+
+

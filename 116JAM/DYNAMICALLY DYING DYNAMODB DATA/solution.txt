@@ -1,0 +1,1 @@
+更改dynamodb的TTL设置

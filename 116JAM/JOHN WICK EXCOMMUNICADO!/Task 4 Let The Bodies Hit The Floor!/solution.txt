@@ -1,0 +1,1 @@
+向S3上传一个excommunicado.txt（内容自拟），创建一个lambda函数，配置环境变量然后测试

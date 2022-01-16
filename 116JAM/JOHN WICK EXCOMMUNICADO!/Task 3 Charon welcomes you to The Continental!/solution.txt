@@ -1,0 +1,1 @@
+使用Query Editor连接数据库，登录凭证由secret manager提供，然后创建一张表，并插入条目
